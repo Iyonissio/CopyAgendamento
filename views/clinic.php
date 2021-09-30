@@ -462,6 +462,61 @@
   	showItems();
   	check();
   }
+
+
+  // Destaque / header js
+  var currentSlide = 0;
+		const slides = document.querySelectorAll(".slide")
+
+		const init = (n) => {
+			slides.forEach((slide) => {
+				slide.style.display = "none"
+
+			})
+			slides[n].style.display = "block"
+		}
+		document.addEventListener("DOMContentLoaded", init(currentSlide))
+		setInterval(() => {
+			proximo()
+		}, 3000);
+		const proximo = () => {
+			currentSlide >= slides.length - 1 ? currentSlide = 0 : currentSlide++
+			init(currentSlide)
+		}
+
+		const antes = () => {
+			currentSlide <= 0 ? currentSlide = slides.length - 1 : currentSlide--
+			init(currentSlide)
+		}
+
+		document.querySelector(".proximo").addEventListener('click', proximo)
+		document.querySelector(".antes").addEventListener('click', antes);
+		window.onscroll = function() {
+			myFunction()
+		};
+		window.onscroll = function() {
+			myFunction()
+		};
+
+		var header = document.getElementById("myHeader");
+		var sticky = header.offsetTop;
+
+		function myFunction() {
+			if (window.pageYOffset > sticky) {
+				header.classList.add("sticky");
+			} else {
+				header.classList.remove("sticky");
+			}
+		}
+
+		function hmbrgr() {
+			var x = document.getElementById("hmbrgr");
+			if (x.style.display == "none") {
+				x.style.display = "flex";
+			} else if (x.style.display == "flex") {
+				x.style.display = "none";
+			}
+		}
 </script>
 
 <?php require_once('footer.php') ?>
