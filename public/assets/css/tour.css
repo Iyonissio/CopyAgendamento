@@ -1,0 +1,104 @@
+/* Areas Section */
+.section-areas {
+  background-color: #F9F9F9;
+  margin-left: 150px;
+  margin-right: 150px;
+  display: grid;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  margin-top: 90px;
+  z-index: 10;
+  position: relative;
+}
+
+.titulo-areas p {
+  text-align: center;
+  padding-top: 12px;
+  color: #00224F;
+  font-size: 18px;
+  font-weight: bolder;
+  border: 2px;
+}
+
+.titulo-areas h1 {
+  text-align: center;
+  padding-top: 38px;
+  color: #00224F;
+  font-size: 28px;
+  font-weight: bolder;
+  border: 2px;
+}
+
+.areas {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+}
+
+.mySlides1 img {
+  width: 95px;
+  padding-bottom: 16px;
+}
+
+.item-areas img {
+  width: 80px;
+  padding-bottom: 16px;
+}
+
+.mySlides1 p{
+  font-weight: bold;
+  font-size: 18px;
+  padding-bottom: 8px;
+  align-items: center;
+  text-align: center;
+}
+
+.item-areas p {
+  font-weight: bold;
+  font-size: 18px;
+  padding-bottom: 8px;
+  text-transform: uppercase;
+}
+
+.mySlides1 a{
+  background-color: whitesmoke;
+  color: black;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 10px 16px 10px 16px;
+  border: 1px solid black;
+}
+
+.item-areas a {
+  background-color: whitesmoke;
+  color: black;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 10px 16px 10px 16px;
+  border: 1px solid black;
+}
+
+.item-areas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.vertical-line {
+  padding-top: 10px;
+  width: 1px; /* Line width */
+  background-color: black; /* Line color */
+  height: 80%; /* Override in-line if you want specific height. */
+  float: left;
+}
+
+/* Responsividade Fazer Tour */
+@media (min-width: 100px) and (max-width: 900px){
+  .section-areas{
+    display: none;
+  }
+  .areas{
+    display: none;
+  }
+}

@@ -1,0 +1,123 @@
+
+
+.descricao_areas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 128px;
+    padding-right: 128px;
+    gap: 20px;
+    margin-top: 128px;
+}
+
+.descricao_informacao{
+    display: flex;
+    flex-direction: column;
+}
+
+.descricao_informacao h1{
+    font-weight: bold;
+    font-size: 18px;
+}
+.descricao_informacao p{
+    padding-top: 16px;
+    font-size: 18px;
+    padding-bottom: 16px;
+    text-align: justify;
+}
+.descricao_informacao ul{
+    padding-top: 16px;
+    font-size: 18px;
+    padding-bottom: 16px;
+}
+
+.descricao_titulo h1{
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #222C51;
+}
+
+.descricao_imagem img{
+    object-fit: cover;
+    height: 500px;
+    width: 500px;
+}
+
+.descricao_imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paginas_estabelecmentos span {
+   display: flex;
+   padding-left: 20px;
+   font-size: 24px;
+   float:left; 
+  margin-bottom: 35px;
+}
+
+.button_agendar button{
+    background-color: #f1a300;
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+    padding: 8px 10px 8px 10px;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
+}
+
+/* Clinicas Restaurantes e Saloes Area de descricao */
+
+@media (min-width: 100px) {
+  .descricao_areas {
+      display: grid;
+      padding-left: 16px;
+      padding-right: 16px;
+      grid-template-columns: repeat(1, 2fr);
+    }
+  .descricao_imagem {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 70px;
+      padding-left: 3px;
+      padding-right: 3px;
+    }
+  .descricao_imagem img{
+      object-fit: cover;
+      height: 210px;
+      width: 270px;
+    }
+  }
+  
+  @media (min-width: 600px) and (max-width: 899px){
+    .descricao_areas {
+      display: grid;
+      padding-left: 128px;
+      padding-right: 128px;
+      grid-template-columns: repeat(1, 2fr);
+    }
+    .descricao_imagem img{
+      object-fit: cover;
+      height: 310px;
+      width: 470px;
+    }
+  }
+  
+  @media (min-width: 900px) {
+    .descricao_areas {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      padding-left: 128px;
+      padding-right: 128px;
+    }
+    .descricao_imagem img{
+      object-fit: cover;
+      height: 310px;
+      width: 470px;
+    }
+  }

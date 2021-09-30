@@ -1,0 +1,19 @@
+/*Colocar no Repositorio */
+.logo-user {
+  height: 27px;
+  width: 30px;
+  padding-left: 10px;
+}
+
+@media (min-width: 100px) and (max-width: 350px) {
+  .logo-user {
+    height: 65px;
+    width: 65px;
+  }
+}
+@media (min-width: 360px) and (max-width: 899px) {
+  .logo-user {
+    height: 100px;
+    width: 100px;
+  }
+}
