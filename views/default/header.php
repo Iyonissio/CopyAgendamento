@@ -41,7 +41,7 @@
         <li class="iten"><a href="#funcionamento">Como Funciona</a>
         <li class="iten"><a href="#tour">Fazer Tour</a></li>
         <li class="iten button"><a href="<?= PATH ?>empresas/">empresa</a></li>
-        <li class="iten button secondary"><a href="<?= SYSTEMURL ?>">usuario</a></li>
+        <li class="iten button secondary"><a href="<?= SYSTEMURL ?>">usuário</a></li>
         </li>
         <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
       </ul>
