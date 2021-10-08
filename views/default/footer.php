@@ -119,13 +119,13 @@
  </footer>
  <div class="footer-final">
    <div class="footer-final-section">
-     <div class="footer-final-esquerda">
+   <div class="footer-final-esquerda">
        <p>Agendamento Online.</p>
      </div>
      <div class="footer-final-centro">
-       <span><i class="fab fa-facebook-f"></i></span>
-       <span><i class="fab fa-instagram"></i></span>
-       <span><i class="fab fa-linkedin"></i></span>
+       <span><a href="#"><i class="fab fa-facebook-f"></i></a></span>
+       <span><a href="https://www.instagram.com/reservajamz/"><i class="fab fa-instagram"></i></a></span>
+       <span><a href="https://www.linkedin.com/in/reservaja/"><i class="fab fa-linkedin"></i></a></span>
      </div>
 
      <div class="footer-final-direita">
