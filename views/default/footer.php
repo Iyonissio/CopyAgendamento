@@ -104,22 +104,19 @@
        <p>suporte@reservaja.co.mz</p>
      </div>
      <div class="footer-direita">
-       <form action="https://formspree.io/f/xgerznrj" method="POST">
-         <div class="footer-titulo">
-           <h3>SUBSCREVA A NEWSLATTER</h3>
-         </div>
-         <div class="footer-news">
-           <input name="message" placeholder="digite e-mail" name="_replyton" />
-         </div>
-         <div class="subscrever">
-           <button type="submit">subscrever</button>
-         </div>
-       </form>
+       <div class="footer-titulo">
+         <h3>PODE BAIXAR A APP</h3>
+       </div>
+       <div class="footer-logo">
+         <a href="#"><img style="width: 170px; height: 72px;" src="image/play-store.png" alt="foto" /></a>
+         <a href="#"><img style="width: 170px; height: 72px;
+          padding-left: px;" src="image/app-store.png" alt="foto" /></a>
+       </div>
      </div>
  </footer>
  <div class="footer-final">
    <div class="footer-final-section">
-   <div class="footer-final-esquerda">
+     <div class="footer-final-esquerda">
        <p>Agendamento Online.</p>
      </div>
      <div class="footer-final-centro">
