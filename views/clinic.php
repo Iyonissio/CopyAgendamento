@@ -261,7 +261,7 @@
 		<div class="pagination">
 				<div class="prev">Anterior</div>
 				<div class="page">Pagina <span class="page-num"></span></div>
-				<div class="next">Proximo</div>
+				<div class="next">Próximo</div>
 		</div>
 	</div>
 </section>
