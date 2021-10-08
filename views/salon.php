@@ -255,9 +255,9 @@
 			</div>
 
 			<div class="pagination">
-				<div class="prev">Prev</div>
-				<div class="page">Page <span class="page-num"></span></div>
-				<div class="next">Next</div>
+				<div class="prev">Anterior</div>
+				<div class="page">Pagina <span class="page-num"></span></div>
+				<div class="next">Proximo</div>
 			</div>
 		</div>
 	</section>
