@@ -150,21 +150,11 @@
         </div>
         <a href="planoBasico.php"><button class="planos-button">Aderir</button></a>
       </div>
+      
       <div class="planos-descricao-1">
         <div class="planos-titulo">
-          <h1>ESSENCIAL</h1>
-          <p>Materiais de visibilidade</p>
-          <p>Agendamentos ilimitados com personalização de serviços</p>
-        </div>
-        <div class="preco">
-          <p>Mensalidade – 3.750,00/Mês  </p>
-        </div>
-        <a href="planoEssencial.php"><button class="planos-button">Aderir</button></a>
-      </div>
-      <div class="planos-descricao-2">
-        <div class="planos-titulo">
           <h1>PROFISSIONAL</h1>
-          <p>Promoção de marca nas redes sociais e materiais de visibilidade</p>
+          <p>Promoção de marca nas redes sociais</p>
           <p>Agendamentos ilimitados com personalização de serviços</p>
         </div>
         <div class="preco">
