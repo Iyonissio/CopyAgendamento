@@ -67,7 +67,6 @@
         <div class="paginas_estabelecmentos">
             <span><i class="fab fa-facebook-f"></i></span>
             <span><i class="fab fa-instagram"></i></span>
-            <span><i class="fab fa-linkedin"></i></span>
         </div>
         <div class="button_agendar">
             <a href="<?= SYSTEMURL . $restaurante[0]->domain ?>"> <button id="myBtn">agendar</button></a>
