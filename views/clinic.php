@@ -145,7 +145,7 @@
         <div class="pesquisar">
           <div class="search-container">
             <form action="/action_page.php">
-              <input type="text" placeholder="Search.." name="search">
+              <input type="text" placeholder="Procurar.." name="search">
               <button type="submit"><i class="fa fa-search"></i></button>
             </form>
           </div>
@@ -260,7 +260,7 @@
 
 		<div class="pagination">
 				<div class="prev">Anterior</div>
-				<div class="page">Pagina <span class="page-num"></span></div>
+				<div class="page">Pag <span class="page-num"></span></div>
 				<div class="next">Próximo</div>
 		</div>
 	</div>
