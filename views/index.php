@@ -32,17 +32,15 @@
           buttonTitle: 'saiba mais',
         },
         {
-          image: 'image/2.svg',
+          image: 'assets/image/2.svg',
           title: 'Reservas se tornaram muito faceis.',
-          description: `Faça seus agendamentos com 
-          certeza de que seu pedido será concretizado e sem precisar se deslocar ou efectuar chamadas.`,
+          description: `Faça seus agendamentos com certeza de que seu pedido será concretizado`,
           buttonTitle: 'saiba mais',
         },
         {
-          image: 'image/3.svg',
+          image: 'assets/image/3.svg',
           title: 'Quando e Onde estiver.',
-          description: `Faça seus agendamentos com certeza de 
-          que seu pedido será concretizado e sem precisar se deslocar ou efectuar chamadas.`,
+          description: `Faça seus agendamentos com certeza sem precisar se deslocar ou efectuar chamadas.`,
           buttonTitle: 'saiba mais',
         },
         {
